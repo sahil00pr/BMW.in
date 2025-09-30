@@ -1,0 +1,292 @@
+body {
+    background-color: rgb(111, 114, 113);
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: right;
+}
+.logo {
+    width: 40px;
+    height: auto;
+    margin-top: 12px;
+    margin-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+header {
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: -40px;
+    padding-bottom: 20px;
+    padding-right:10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+a {
+    color:white;
+    text-decoration:none;
+}
+a:hover {
+    transform:scale(1.1) ;
+    transition: 0.3s;
+    color: rgb(255, 0, 0);
+}
+a:active {
+    color: rgb(154, 87, 236);
+}
+.bigimg {
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.bigimg img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+h5 {
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:rgb(0, 0, 0);
+    font-size:4vw;
+    font-weight:bold;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.7);
+    text-align:center;
+    font-family: 'Arial Black', sans-serif;
+    text-transform:uppercase;
+    letter-spacing: 3px;
+    background-color: rgba(69, 59, 59, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: transform 0.3s; 
+    margin-bottom: 20px;
+
+
+}
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    width: 100%;
+    background-color: rgb(192, 191, 191);
+    border-radius: 5px;
+    padding-left: 8px;
+    border-left: #5a545c solid 10px;
+    border-bottom: #606766 solid 1px;
+}
+.las {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.3s;
+}
+
+.las img {
+   max-width: 50%;
+    height:auto;
+    box-shadow: 10px 8px 8px rgba(3, 2, 2, 0.1);
+    justify-content: left;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding-top: 2px;
+
+}
+.las h6 {
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    font-weight: bold;
+    padding-right: 100px;
+    margin-top: -140px;
+    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+}
+.las p {
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    font-weight: bold;
+    padding-right: 100px;
+    margin-top: -130px;
+    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+    padding-bottom:5px;
+}
+
+.aas {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.3s;
+}
+.aas img {
+   max-width: 50%;
+    height:auto;
+    box-shadow: 10px 8px 8px rgba(3, 2, 2, 0.1);
+    justify-content: left;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    padding-top:4px;
+    position: relative;
+    top:10px;
+    left:0px;
+}
+.aas h6 {
+    width: 100%;
+    text-align: right;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    font-weight: bold;
+    padding-right: 100px;
+    margin-top: -140px;
+    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+}
+.aas p {
+    width: 100%;
+    text-align: right;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;    
+    font-weight: bold;
+    padding-right: 100px;
+    margin-top: -130px;
+    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+    padding-bottom:0px;
+    padding-top: 10px;
+}
+.contact {
+    background-color: rgb(211, 233, 226);
+    padding:20px;
+    text-align:center;
+    font-size:18px;
+    font-weight:bolder;
+    color: rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    border-radius:10px;
+    box-shadow:4px 5px 9px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    transition: transform 0.3s;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;  
+}
+input[type="text"], input[type="email"],input[type="tel"], textarea {
+    width: 100%;    
+    padding: 10px;
+    border: 1px solid #ccc;    
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+#footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+button {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}   
+button:hover {
+    background-color: rgba(30, 160, 121, 0.903);
+}   
+
+
+
