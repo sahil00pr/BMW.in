@@ -36,7 +36,6 @@ nav {
     font-size: 18px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
 }
 a {
     color:white;
@@ -51,7 +50,7 @@ a:active {
     color: rgb(154, 87, 236);
 }
 .bigimg {
-    width: 100%;
+    width:fit-content;
     height: auto;
     margin-top: -20px;
     border-radius: 5px;
@@ -86,7 +85,7 @@ h5 {
 
 
 }
-h3 {
+#latest {
     font-size: 36px;
     font-weight: bold;
     text-align: left;
@@ -97,7 +96,6 @@ h3 {
     letter-spacing: 3px;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
     display: block;
-    width: 100%;
     background-color: rgb(192, 191, 191);
     border-radius: 5px;
     padding-left: 8px;
@@ -105,125 +103,123 @@ h3 {
     border-bottom: #606766 solid 1px;
 }
 .las {
-    background-color: antiquewhite;
+    background-color:white;
     padding: 20px;
-    text-align: left;
     display: flex;
-    justify-content: left;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    flex-wrap:wrap;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    margin: 2px;   
     font-weight: bold;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Arial Black', sans-serif; 
+    margin: 2px ;
+    justify-content: center;
+    flex-shrink: 1;
+
+}
+.scs h6 {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 5px;
+    margin-top:10px;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: transform 0.3s;
+
+
 }
 
-.las img {
-   max-width: 50%;
-    height:auto;
-    box-shadow: 10px 8px 8px rgba(3, 2, 2, 0.1);
-    justify-content: left;
+.sc img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    transition: transform 0.3s;
-    padding-top: 2px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
 
 }
-.las h6 {
-    width: 100%;
-    text-align: right;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;    
-    font-weight: bold;
-    padding-right: 100px;
-    margin-top: -140px;
-    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+.sc,.jo {
+    justify-content:space-between;
+    background-color: transparent;
+    width: 55%;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+
+
 }
-.las p {
-    width: 100%;
-    text-align: right;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;    
-    font-weight: bold;
-    padding-right: 100px;
-    margin-top: -130px;
-    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
-    padding-bottom:5px;
+.scs {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    flex-shrink: 2;
+    flex-grow: 1;
+
+
 }
 
 .aas {
-    background-color: antiquewhite;
+    background-color:white;
     padding: 20px;
-    text-align: left;
     display: flex;
-    justify-content: left;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 30px;
+    flex-wrap:wrap;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    margin: 2px;   
     font-weight: bold;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: transform 0.3s;
+    font-family: 'Arial Black', sans-serif; 
+    margin: 2px ;
+    justify-content: center;
+    flex-shrink: 1;
 }
-.aas img {
-   max-width: 50%;
-    height:auto;
-    box-shadow: 10px 8px 8px rgba(3, 2, 2, 0.1);
-    justify-content: left;
+.sca img {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    transition: transform 0.3s;
-    padding-top:4px;
-    position: relative;
-    top:10px;
-    left:0px;
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
-.aas h6 {
-    width: 100%;
-    text-align: right;
-    font-size: 22px;
-    color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;    
-    font-weight: bold;
-    padding-right: 100px;
-    margin-top: -140px;
-    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
+.sca {
+    justify-content: left;
+    background-color: transparent;
+    width: 55%;
+    height: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
-.aas p {
-    width: 100%;
-    text-align: right;
+.scaa h6 {
     font-size: 22px;
-    color: rgb(0, 0, 0);
-    font-family: 'Arial Black', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color:black;
+    margin-bottom: 5px;
+    margin-top:10px;
     text-transform: uppercase;
-    letter-spacing: 2px;    
-    font-weight: bold;
-    padding-right: 100px;
-    margin-top: -130px;
-    text-shadow: 6px 7px 6px rgba(0, 0, 0, 0.2);
-    padding-bottom:0px;
+}
+.scaa {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
     padding-top: 10px;
+    padding-bottom: 2px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .contact {
     background-color: rgb(211, 233, 226);
-    padding:20px;
+    padding:10px;
     text-align:center;
     font-size:18px;
     font-weight:bolder;
@@ -231,7 +227,7 @@ h3 {
     font-family:'Courier New', Courier, monospace;
     border-radius:10px;
     box-shadow:4px 5px 9px rgba(0, 0, 0, 0.7);
-    margin: 10px;
+    margin:0px 10px 10px 10px;
     transition: transform 0.3s;
     justify-content: center;
     display: flex;
@@ -270,7 +266,6 @@ input[type="text"], input[type="email"],input[type="tel"], textarea {
     text-align: center;
     padding: 10px;
     bottom: 0;
-    width: 100%;
     font-size: 14px;
 }
 button {
@@ -287,6 +282,24 @@ button {
 button:hover {
     background-color: rgba(30, 160, 121, 0.903);
 }   
+#contact {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin:10px 10px 0px 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    display: block;
+    background-color: rgb(192, 191, 191);
+    border-radius: 5px;
+    padding-left: 8px;
+    border-left: #5a545c solid 10px;
+    border-bottom: #606766 solid 1px;
+    
+}
 
 
 
